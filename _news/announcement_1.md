@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2018-7-22 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+<!-- to add more news points, create announcement_3.md and choose inline etc options accordingly -->
+Succesfully finished my internship at NVidia, Bangalore

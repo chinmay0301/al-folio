@@ -1,13 +1,17 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Phase Retrieval - Bachelor's Thesis
+description: Recovering a signal from Poisson corrupted Fourier magnitude measurements. Also looking into recovery of the original signal from clipped poisson corrupted measurements. 
+img: /assets/img/PR_BTP.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+This is an ongoing project, hence will update the details when the project is completed. In brief, the aim of the project 
+is to look into the following aspects of phase retreival -:
+* To perform classic phase retrieval from poisson corrupted measurements in a non-compressive setting.
+* To perform phase retrieval from sparse signals with poisson corrupted compressive measurements.
+* Recovering signals from clipped poisson corrupted images. This problem occurs in a general setting too, not just phase retrieval. Trying to use approaches from compressed sensing with some additional information as to improve the estimates of the clipped signals.  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
@@ -53,3 +57,4 @@ The code is simple. Just add a col class to your image, and another class specif
     <img class="col two left" src="/img/6.jpg"/>
     <img class="col one left" src="/img/11.jpg"/>
 </div>
+ -->

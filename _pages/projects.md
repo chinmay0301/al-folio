@@ -1,10 +1,9 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research Projects
+permalink: /research/
+description: A brief collation of my recent research experiences so far
 ---
-
 {% for project in site.projects %}
 
 {% if project.redirect %}

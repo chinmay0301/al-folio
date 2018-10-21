@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Project 4
-description: another without an image
-img:
+title: Stochastic Modelling of Server Caches 
+description: 
+img: /assets/img/stoch.jpg
 ---
 
+The introductory courses in Data analysis and  Data Structures kindled my interest in graph theory and stochastics. I took up this project with [Prof. Sharayu](https://www.ee.iitb.ac.in/web/faculty/homepage/sharayum) with the aim to explore these fields into greater detail. I got a good insight into the application of bipartite graphs for modelling server caches. I studied a new algorithm known as the [Two Suggested Matching (TSM) ](http://ieeexplore.ieee.org/abstract/document/5438641/), which performs better than standard online algorithms for matching incoming requests to the files stored in the server. The above linked paper talks about using TSM in context of matching advertisements to incoming visitors on a web site, as to maximize the number of matchings between the advertisements and the visitors. I also implemented the hungarian algorithm and the standard online matching algorithm on octave. 
+ 
+
+<!-- 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
@@ -53,3 +57,4 @@ The code is simple. Just add a col class to your image, and another class specif
     <img class="col two left" src="/img/6.jpg"/>
     <img class="col one left" src="/img/11.jpg"/>
 </div>
+ -->

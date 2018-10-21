@@ -1,10 +1,12 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
+date: 2018-09-07 16:11:00-0400
+inline: true
 ---
+My first research paper got accepted to [IEEE GlobalSIP](https://2018.ieeeglobalsip.org/), to be held at Anaheim in California this November
 
+<!-- 
+make inline false, uncomment this, to get the full linked news
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
 ***
@@ -29,3 +31,4 @@ Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxide
 > —Anais Nin
 
 Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+ -->

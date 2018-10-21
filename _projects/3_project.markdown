@@ -1,23 +1,14 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
+title: Parallelzing Monte Carlo Simulations using CUDA
+description: 
+img: /assets/img/MonteCarlo.jpg
+
 ---
-
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In the summer break of 2017, I worked with [Prof. Dirk Kroese](https://people.smp.uq.edu.au/DirkKroese/), to investigate the performance of the [Cross Entropy Method](http://web.mit.edu/6.454/www/www_fall_2003/gew/CEtutorial.pdf) on Nvidia GPUs ( CUDA), for optimising solutions to a peak detector function, and the well known Max-Cut Problem. The speed-up obtained by using CUDA is documented in this report. [`[`pdf`]`](https://chinmay0301.github.io/Parallel_CE_CUDA_edited.pdf)
 
 
+<!-- 
 <div class="img_row">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
     <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
@@ -54,3 +45,4 @@ The code is simple. Just add a col class to your image, and another class specif
     <img class="col two left" src="/img/6.jpg"/>
     <img class="col one left" src="/img/11.jpg"/>
 </div>
+ -->
